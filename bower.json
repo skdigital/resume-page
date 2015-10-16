@@ -1,0 +1,27 @@
+{
+  "name": "resume-page",
+  "description": "resume-page using bootstrap 4, this project is a follow along tutorial by Eduonix on udemy and is designed to teach bootstrap and less. I have used gulp, bower and npm in this package as well as vcs. This project is a simple website using features of bootstrap boilerplate code.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Sean Knowles"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/seandeveloper/resume-page",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "animate.css": "~3.4.0",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

@@ -1,0 +1,140 @@
+@import 'vendors/_bootstrap.scss';
+
+/**********************************
+Variables declerations:
+**********************************/
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+
+
+/**********************************
+General:
+**********************************/
+
+body {
+	font-family: 'Open Sans', Arial, Tahoma;
+	color: $text-color;
+	font: 16px;
+	padding-bottom: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.primary-color,
+strong,
+h2 {
+	color: $primary-color;
+}
+
+.main-container {
+	background: white;
+	margin-top: 80px;
+	padding: 0 30px 30px 30px;
+}
+
+h2{
+	font-weight:700;
+	text-transform:uppercase;
+	line-height:1.4em;
+	font-size:1.5em;
+}
+
+/**********************************
+Header:
+**********************************/
+#header-intro{
+	margin-top:-400px;
+}
+
+.profile {
+	width:160;
+	display:block;
+	margin:auto;
+	margin-top: -200px;
+}
+
+header {
+	min-height: 100px;
+}
+
+header h1 {
+	padding: 20px 0 0 0;
+	font-size: 2.4em;
+	text-weight:700;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	text-align:center;
+	line-height:1.4em;
+}
+
+header h2 {
+	text-align:center;
+	text-weight:100;
+}
+
+.line {
+	max-width:100%;
+}
+
+.row{
+	margin-bottom: 50px;
+}
+
+.services-btn
+	width: 30;
+	display:block;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+
+/**********************************
+Contact-list:
+**********************************/
+
+.contact-list {
+	margin-top: 50px;
+}
+
+.contact-list li {
+	list-style:none;
+}
+
+.contact-list li a {
+	font-weight: 900;
+	line-height: 3.2em;
+	text-decoration:none;
+}
+
+.contact-list span {
+	display:block;
+	margin:0;
+	line-height:0.1em;
+	margin-left:37px;
+	font-size:15px;
+	color:#ccc;
+}
+
+/**********************************
+services-projects:
+**********************************/
+
+.recent-projects ul li {
+	list-style:none;
+}
+
+.recent-projects ul li h3 {
+	line-height:2em;
+}
+
+/**********************************
+footer:
+**********************************/
+
+footer{
+	text-align:center;
+	margin-top: 30px 0;
+	padding: 20px;
+}
