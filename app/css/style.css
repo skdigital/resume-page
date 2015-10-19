@@ -8186,12 +8186,6 @@ h2 {
   color: #3b5a76;
 }
 
-.main-container {
-  background: white;
-  margin-top: 80px;
-  padding: 0 30px 30px 30px;
-}
-
 h2 {
   font-weight: 700;
   text-transform: uppercase;
@@ -8202,25 +8196,38 @@ h2 {
 /**********************************
 Header:
 **********************************/
-#header-intro {
-  margin-top: -400px;
+.background-image {
+  background-image: url("../img/bangkok-nightlife.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 50%;
+  position: relative;
+  z-index: -1;
+  margin-top: -180px;
 }
 
 .profile {
-  width: 160;
-  display: block;
-  margin: auto;
-  margin-top: -200px;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  margin-left: -15px;
 }
 
-header {
-  min-height: 100px;
+.person-image {
+  width: 150;
+  display: block;
+  margin: auto;
+}
+
+.header {
+  margin-bottom: 50px;
 }
 
 header h1 {
   padding: 20px 0 0 0;
   font-size: 2.4em;
-  text-weight: 700;
+  text-weight: bold;
   text-transform: uppercase;
   letter-spacing: -1px;
   text-align: center;
@@ -8240,11 +8247,9 @@ header h2 {
   margin-bottom: 50px;
 }
 
-.services-btn, services-btn {
-  width: 30;
+.services-btn {
   display: block;
-  margin: 0 auto;
-  padding: 50px;
+  margin: 80px auto;
   text-align: center;
 }
 
@@ -8252,8 +8257,7 @@ header h2 {
 Contact-list:
 **********************************/
 .contact-list {
-  padding: 0;
-  margin: 0;
+  margin-top: 50px;
 }
 
 .contact-list li {
